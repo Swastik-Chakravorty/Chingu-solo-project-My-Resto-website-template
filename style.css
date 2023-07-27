@@ -1,34 +1,38 @@
 .navbar{
     background-color: rgb(50, 50, 70);
-    border-radius: 30px;
+    border-radius: 10px;
 }
 .navbar ul{
     overflow: auto;
 }
 .navbar li{
-    float: left;
+    float:left;
     list-style: none;
     margin: 25px 20px;
 }
 .navbar li a{
     background-color: rgb(70, 70, 70);
     padding: 9px 5px;
+    border: 1px solid white;
+    border-radius: .7rem;
     text-decoration: none;
+    text-align: center;
     color: white;
     font-family: monospace;
     font-size: 1.5em;
 }
 .navbar li a:hover{
-    background-color: grey;
+    background-color: rgb(90, 90, 110);
     border-radius: 10px;
 }
-.search{
+/* .search{
     float: right;
     color: white;
-    padding: 25px;
+    padding: 23px;
 }
 .navbar input{
     border: 3px solid black;
     border-radius: 10px;
     width: 120px;
-}
+    font-size: 1em;
+} */
