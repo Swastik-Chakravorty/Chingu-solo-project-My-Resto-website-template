@@ -5,7 +5,7 @@
 
 body{
     font-size: 100%;
-    font-family: sans-serif;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif!important;
 }
 .navbar{
     position: fixed;
@@ -35,7 +35,7 @@ body{
     background-color: rgb(90, 90, 110);
 }
 
-#section1{
+.intro-section{
     background-image: url("https://images.unsplash.com/photo-1426604966848-d7adac402bff?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0NzYzMDB8MHwxfHNlYXJjaHw0fHxuYXR1cmV8ZW58MHx8fHwxNjkwNzI1MTcyfDA&ixlib=rb-4.0.3&q=85");
     width: 100%;
     height: 70vh;
@@ -46,12 +46,22 @@ body{
     z-index: 1;
 }
 
-#section1 h1{
+.intro-section h1{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 3em;
+    font-size: 4em;
+    color: white;
+    text-shadow: 1.5px 1.5px 3px rgb(0, 0, 0);
+}
+
+.intro-section h4{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2em;
     color: white;
 }
 
