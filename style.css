@@ -11,7 +11,7 @@ body{
     position: fixed;
     background-color: rgb(70, 70, 85);
     width: 100%;
-    height: 8vh;
+    height: 6.5vh;
     z-index: 2;
 }
 .navbar ul{
@@ -39,6 +39,7 @@ body{
     background-image: url("https://images.unsplash.com/photo-1426604966848-d7adac402bff?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0NzYzMDB8MHwxfHNlYXJjaHw0fHxuYXR1cmV8ZW58MHx8fHwxNjkwNzI1MTcyfDA&ixlib=rb-4.0.3&q=85");
     width: 100%;
     height: 70vh;
+    padding-top: 6.5vh;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -65,3 +66,77 @@ body{
     color: white;
 }
 
+#section2{
+    width: 100%;
+    height: 120vh;
+    padding-top: 6.5vh;
+    align-items: center;
+    /* align-items: stretch; */
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+}
+
+#feature-area{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    /* padding-left: 12vw; */
+}
+
+.feature-content{
+    width: 25%;
+    height: 60vh;
+    background-color: rgb(216, 216, 216);
+    margin: 10px;
+    /* padding-left: 15vw; */
+    text-align: center;
+    /* position: relative; */
+}
+
+.feature-content img{
+    width: 100%;
+    height: 20vh;
+    object-fit: cover;
+}
+
+.feature-content h1{
+    position: absolute;
+    align-items: center;
+}
+
+#blog-area{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.blog-content{
+    width: 38.5%;
+    height: 60vh;
+    background-color: rgb(216, 216, 216);
+    margin: 10px;
+    text-align: center;
+}
+
+#green{
+    
+    order: 1;
+}
+
+#blue{
+    order: 2;
+}
+
+#red{
+    order: 3;
+}
+
+#Left{
+    order: 4;
+}
+
+#Right{
+    order: 5;
+}
