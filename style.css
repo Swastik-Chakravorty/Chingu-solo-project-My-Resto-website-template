@@ -25,6 +25,7 @@ html{
 }
 
 /* Styling navbar start */
+
 header{
     position: fixed;
     top: 0;
@@ -78,3 +79,49 @@ header .icons #menu{
 }
 
 /* Styling navbar end */
+
+
+
+/* Media query */
+@media (max-width: 991px){
+    html{
+        font-size: 55%;
+    }
+    header{
+        padding: 1rem 2rem;
+    }
+    header .logo img{
+        height: 7rem;
+    }
+}
+
+@media (max-width: 768px){
+    /* navbar media query */
+    header .logo img{
+        height: 7rem;
+    }
+    header .icons #menu{
+        display: inline-block;
+    }
+    header .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #eee;
+        border-top: .1rem solid rgba(205, 170, 124, 0.2);
+        border-bottom: .1rem solid rgba(205, 170, 124, 0.2);
+        padding: 1rem;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    header .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    header .navbar a{
+        display: block;
+        padding: 1.5rem;
+        margin: 1rem;
+        font-size: 2rem;
+        background: var(--black);
+    }
+}
