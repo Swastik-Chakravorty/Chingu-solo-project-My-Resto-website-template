@@ -553,6 +553,17 @@ section{
 
 /* Jump to top */
 
+.topbtn{
+    position: fixed;
+    right: 2%;
+    bottom: 10%;
+    width: 30px;
+    height: 30px;
+    background: #cdaa7c;
+    color: #fff;
+    cursor: pointer;
+}
+
 /* Media query */
 
 @media (max-width: 991px){
