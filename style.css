@@ -313,6 +313,7 @@ section{
 /* Our-menu style ends */
 
 /* Media query */
+
 @media (max-width: 991px){
     html{
         font-size: 55%;
