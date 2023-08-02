@@ -395,6 +395,57 @@ section{
 
 /* Our chef style ends*/
 
+/* Reservation style starts */
+
+.reservation{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.reservation .image{
+    width: 55%;
+    background: url(pics/book-a-table.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 9rem;
+}
+
+.reservation .form{
+    background: #181818;
+    width: 45%;
+    padding: 18rem 7%;
+}
+
+.reservation .form h1{
+    color: #fff;
+}
+
+.reservation .form-holder{
+    display: flex;
+    grid-gap: 3rem;
+    width: 100%;
+}
+
+.reservation .form form input,
+.reservation .form form select{
+    display: block;
+    margin: 2rem 0;
+    width: 100%;
+    background: none;
+    border-bottom: .1rem solid #b7b3b3;
+    color: #b7b3b3;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.reservation .form form input::placeholder{
+    color: #b7b3b3;
+}
+
+/* Reservation style ends */
+
 /* Media query */
 
 @media (max-width: 991px){
@@ -476,5 +527,17 @@ section{
 
     .welcome .box-container .box{
         width: 100%;
+    }
+
+    .reservation .image{
+        width: 0;
+    }
+
+    .reservation .form{
+        width: 100%;
+    }
+
+    .reservation .form .form-holder{
+        display: block;
     }
 }
