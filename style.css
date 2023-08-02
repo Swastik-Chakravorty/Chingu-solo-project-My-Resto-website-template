@@ -482,6 +482,61 @@ section{
 
 /* Blog style ends */
 
+/* Footer style starts */
+
+.footer{
+    background: #333;
+    text-align: center;
+    color: #b2b2b2;
+    font-size: 1.3rem;
+}
+
+.footer .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem,2fr));
+    color: #b2b2b2;
+    grid-gap: 1rem;
+    padding: 4rem 0;
+    border-bottom: 1px solid #b2b2b2;
+}
+
+.footer .container div{
+    padding: 0 7rem;
+}
+
+.footer .container h3{
+    color: #fff;
+    font-size: 1.5rem;
+    padding-bottom: .8rem;
+}
+
+.footer .container input{
+    width: 100%;
+    border: 1px solid #b2b2b2;
+    padding: .5rem .8rem;
+    background: transparent;
+    border-radius: 20px;
+}
+
+.footer .container ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.footer .container ul li a{
+    color: #b2b2b2;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.footer .container span{
+    display: block;
+}
+
+/* Footer style ends */
+
 /* Media query */
 
 @media (max-width: 991px){
