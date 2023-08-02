@@ -255,7 +255,7 @@ section{
 
 /* Welcome style ends */
 
-/* Our-menu style starts */
+/* Our menu style starts */
 
 .our-menu{
     background: url(pics/our-menu-bg-1.png) left top no-repeat, url(pics/our-menu-bg-3.jpg);
@@ -310,7 +310,90 @@ section{
     color: #b9b9b9;
 }
 
-/* Our-menu style ends */
+/* Our menu style ends */
+
+/* Our chef style starts*/
+
+.our-chef{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    grid-gap: 1.5rem;
+}
+
+.our-chef .item .image img{
+    width: 100%;
+}
+
+.our-chef .item{
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.our-chef .item::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 5;
+}
+
+.our-chef .item:hover.item::before{
+    display: block;
+}
+
+.our-chef .item .chef-info{
+    position: absolute;
+    top: 130%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    align-items: center;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.our-chef .item .chef-info h3{
+    font-size: 1.7rem;
+    color: #fff;
+    padding: .8rem 0;
+    text-transform: uppercase;
+}
+
+.our-chef .item .chef-info span{
+    font-size: 1.7rem;
+    color: var(--light-color);
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.our-chef .item .chef-info ul{
+    list-style: none;
+    display: flex;
+    grid-gap: 2rem;
+    padding: 3rem 0;
+}
+
+.our-chef .item .chef-info ul li a{
+    color: #b9b6b6;
+    font-size: 1.8rem;
+}
+
+.our-chef .item:hover .chef-info{
+    top: 0;
+}
+
+/* Our chef style ends*/
 
 /* Media query */
 
