@@ -279,6 +279,10 @@ section{
     padding: .5rem 0;
 }
 
+.our-menu h1{
+    color: #e5e5e5;
+}
+
 .our-menu .menu-container .item .item-name h2{
     font-size: 3rem;
     color: #e5e5e5;
@@ -445,6 +449,38 @@ section{
 }
 
 /* Reservation style ends */
+
+/* Blog style starts */
+
+.blog .box-container .box{
+    background: #fff;
+}
+
+.blog .content{
+    text-align: left;
+    position: relative;
+}
+
+.blog .content h3,
+.blog .content p,
+.blog .content a{
+    color: #333!important;
+}
+
+.blog .content a{
+    font-size: 14px;
+    display: inline-block;
+    padding-top: 1rem;
+    text-decoration: underline;
+}
+
+.blog .content img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* Blog style ends */
 
 /* Media query */
 
