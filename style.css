@@ -24,7 +24,7 @@ html{
     scroll-behavior: smooth;
 }
 
-/* Styling navbar start */
+/* Styling navbar starts */
 
 header{
     position: fixed;
@@ -79,9 +79,9 @@ header .icons #menu{
     display: none;
 }
 
-/* Styling navbar end */
+/* Styling navbar ends */
 
-/* Slider style start */
+/* Slider style starts */
 
 .home .home-slider .slide{
     display: flex;
@@ -176,9 +176,9 @@ header .icons #menu{
     border-radius: 0!important;
 }
 
-/* Slider style end */
+/* Slider style ends */
 
-/* Welcome style start */
+/* Welcome style starts */
 
 section{
     padding: 8rem 9%;   
@@ -253,7 +253,64 @@ section{
     line-height: 1.5;
 }
 
-/* Welcome style end */
+/* Welcome style ends */
+
+/* Our-menu style starts */
+
+.our-menu{
+    background: url(pics/our-menu-bg-1.png) left top no-repeat, url(pics/our-menu-bg-3.jpg);
+}
+
+.our-menu .menu-container{
+    padding: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(50rem, 2fr));
+    gap: 5rem 10rem;
+}
+
+.our-menu .menu-container .item .item-name{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    margin-top: .5rem;
+}
+
+.our-menu .menu-container .item .menu-item{
+    padding: .5rem 0;
+}
+
+.our-menu .menu-container .item .item-name h2{
+    font-size: 3rem;
+    color: #e5e5e5;
+    font-weight: 500;
+}
+
+.our-menu .menu-container .item .item-menu h3{
+    font-size: 2rem;
+    color: #e5e5e5;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.our-menu .menu-container .item .item-menu span{
+    width: 37%;
+    display: inline-block;
+    border: 1px dotted #e5e5e5;
+}
+
+.our-menu .menu-container .item .item-menu ul{
+    display: flex;
+    font-size: 1.5rem;
+    list-style: none;
+    padding: .8rem 0;
+    font-weight: 400;
+}
+
+.our-menu .menu-container .item .item-menu ul li a{
+    color: #b9b9b9;
+}
+
+/* Our-menu style ends */
 
 /* Media query */
 @media (max-width: 991px){
@@ -267,6 +324,14 @@ section{
 
     header .logo img{
         height: 7rem;
+    }
+
+    .our-menu .menu-container{
+        grid-template-columns: repeat(auto-fit,minmax(30rem,2fr));
+    }
+
+    .our-menu .menu-container .item .item-menu span{
+       width: 15%; 
     }
 }
 
