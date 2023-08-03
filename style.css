@@ -543,6 +543,10 @@ header .icons #menu{
     border-radius: 20px;
 }
 
+.footer .container input::placeholder{
+    color: #b2b2b2;
+}
+
 .footer .container ul{
     list-style: none;
     display: flex;
@@ -561,20 +565,6 @@ header .icons #menu{
 }
 
 /* Footer style ends */
-
-/* Custom scroll bar */
-
-/* ::-webkit-scrollbar{
-    width: 12px;
-}
-
-::-webkit-scrollbar-track{
-    background: #333;
-}
-
-::-webkit-scrollbar-thumb{
-    background: #cdaa7c;
-} */
 
 /* Jump to top */
 
