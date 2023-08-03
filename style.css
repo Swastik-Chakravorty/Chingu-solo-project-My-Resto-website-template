@@ -11,6 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
     text-decoration: none;
     border: none;
     outline: none;
@@ -180,8 +181,9 @@ header .icons #menu{
 
 /* Welcome style starts */
 
-section{
-    padding: 8rem 9%;   
+#about{
+    padding: 8rem 9%;
+    padding-top: 7%;   
 }
 
 .heading{
@@ -257,6 +259,11 @@ section{
 
 /* Our menu style starts */
 
+#menubar{
+    padding: 8rem 9%;
+    padding-top: 7%;   
+}
+
 .our-menu{
     background: url(pics/our-menu-bg-1.png) left top no-repeat, url(pics/our-menu-bg-3.jpg);
 }
@@ -317,6 +324,11 @@ section{
 /* Our menu style ends */
 
 /* Our chef style starts*/
+
+#team{
+    padding: 8rem 9%;
+    padding-top: 7%;   
+}
 
 .our-chef{
     width: 100%;
@@ -401,6 +413,10 @@ section{
 
 /* Reservation style starts */
 
+#reservation{
+    padding-top: 7%;
+}
+
 .reservation{
     display: flex;
     width: 100%;
@@ -452,6 +468,11 @@ section{
 
 /* Blog style starts */
 
+#blog{
+    padding: 8rem 9%;  
+    padding-top: 7%; 
+}
+
 .blog .box-container .box{
     background: #fff;
 }
@@ -483,6 +504,10 @@ section{
 /* Blog style ends */
 
 /* Footer style starts */
+
+#footer{
+    padding: 8rem 9%;   
+}
 
 .footer{
     background: #333;
@@ -539,7 +564,7 @@ section{
 
 /* Custom scroll bar */
 
-::-webkit-scrollbar{
+/* ::-webkit-scrollbar{
     width: 12px;
 }
 
@@ -549,7 +574,7 @@ section{
 
 ::-webkit-scrollbar-thumb{
     background: #cdaa7c;
-}
+} */
 
 /* Jump to top */
 
